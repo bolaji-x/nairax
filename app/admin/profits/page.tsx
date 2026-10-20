@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { supabase } from "@/app/lib/supabase"
 import Header from "@/app/components/Header";
 import Link from "next/link";
-
 export default function AdminProfitsPage() {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
