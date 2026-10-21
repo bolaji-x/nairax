@@ -30,6 +30,11 @@ export default function LoginPage() {
 
     router.push("/dashboard");
   };
+  <div className="text-right">
+  <Link href="/forgot-password" className="text-sm text-blue-600 hover:underline">
+    Forgot password?
+  </Link>
+</div>
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
