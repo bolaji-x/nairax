@@ -28,7 +28,6 @@ export default function LoginPage() {
       return;
     }
 
-    // Success - redirect to dashboard (we will create it later)
     router.push("/dashboard");
   };
 
